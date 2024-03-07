@@ -1,0 +1,57 @@
+name: coffee_shop
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  lottie: ^3.1.0
+  flutter_svg: ^2.0.9
+  easy_localization: ^3.0.5
+  flutter_screenutil: ^5.9.0
+  carousel_slider: ^4.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/lotties/
+    - assets/language/
+
+
+  fonts:
+    - family: Basley
+      fonts :
+        - asset : assets/fonts/Basley/Besley-Black.ttf
+        - asset : assets/fonts/Basley/Besley-Bold.ttf
+        - asset : assets/fonts/Basley/Besley-ExtraBold.ttf
+        - asset : assets/fonts/Basley/Besley-Medium.ttf
+        - asset : assets/fonts/Basley/Besley-Regular.ttf
+        - asset : assets/fonts/Basley/Besley-SemiBold.ttf
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter/Inter-Black.ttf
+        - asset: assets/fonts/Inter/Inter-Bold.ttf
+        - asset: assets/fonts/Inter/Inter-ExtraBold.ttf
+        - asset: assets/fonts/Inter/Inter-ExtraLight.ttf
+        - asset: assets/fonts/Inter/Inter-Light.ttf
+        - asset: assets/fonts/Inter/Inter-Medium.ttf
+        - asset: assets/fonts/Inter/Inter-Regular.ttf
+        - asset: assets/fonts/Inter/Inter-SemiBold.ttf
+        - asset: assets/fonts/Inter/Inter-Thin.ttf
